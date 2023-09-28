@@ -1,0 +1,32 @@
+[
+  {
+    "id": "satellite1",
+    "name": "My Elliptical Satellite",
+    "availability": "2023-10-01T00:00:00Z/2023-10-02T00:00:00Z",
+    "path": {
+      "material": {
+        "solidColor": {
+          "color": {
+            "rgba": [255, 0, 0, 255]
+          }
+        }
+      },
+      "width": 2
+    },
+    "position": {
+      "epoch": "2023-10-01T00:00:00Z",
+      "cartographicDegrees": [
+        0.0, 0.0, 0.0,
+        30.0, 0.0, 0.0,
+        60.0, 0.0, 0.0,
+        // Add more positions here for the elliptical path
+      ]
+    },
+    "point": {
+      "color": {
+        "rgba": [255, 0, 0, 255]
+      },
+      "pixelSize": 5
+    }
+  }
+]
